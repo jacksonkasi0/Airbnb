@@ -1,0 +1,11 @@
+.CardImg{
+    height: 240px;
+    width: 320px;
+}
+
+@media screen  and (max-width:899px) {
+    .CardImg{
+        width: 100%;
+        height: 300px;
+    }
+}

@@ -1,0 +1,80 @@
+.Btn,
+.Btn_Black {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s !important;
+  background-size: 200% auto;
+  color: white !important;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+}
+
+.Btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Btn_Black:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Btn {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+
+.Btn_Black {
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #232526 100%
+  );
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.swiper-button-next{
+  background-image: url(./assets/img/right.png);
+  background-position:right;
+}
+.swiper-button-prev {
+  background-image: url(./assets/img/back.png);
+  background-position:left;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-color: #ffffffa2;
+  padding: 5px 13px;
+  border-radius: 50%;
+  
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev::after {
+  display: none;
+}

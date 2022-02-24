@@ -1,0 +1,11 @@
+.title{
+    display: block; 
+    text-align: start;
+    display: -webkit-box;
+    line-height: 1.3em;
+    height: 2.8em; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

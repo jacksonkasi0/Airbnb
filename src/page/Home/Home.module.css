@@ -1,0 +1,81 @@
+.CardBox {
+  display: flex;
+  grid-gap: 30px;
+  border-radius: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  background: #fff !important;
+  padding: 20px 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+@media screen and (max-width: 660px) {
+  .CardBox {
+    margin-top: 50px;
+    padding: 10px 0;
+  }
+  .placeContainer {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .CardBox {
+    margin-top: 100px;
+  }
+
+  .placeContainer {
+    margin-top: 300px;
+  }
+}
+
+.icons {
+  background-color: #fff !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.ShowCard {
+  height: 130px;
+  width: 85%;
+  z-index: -1;
+  border-radius: 12px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  background: linear-gradient(121deg, #e4f9ff 0%, #bb72bb44 100%);
+}
+
+.placeBox{
+  overflow-y: hidden;
+}
+
+.place{
+  display:flex; 
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  grid-gap:30px; width:"80%";
+  margin:auto;
+}
+
+.arrowIcon {
+  position: absolute;
+  bottom: -4rem;
+  background: #ffffff !important;
+  color: #000;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+@media screen and (min-width:936px) {
+  .ShowCard,.arrowIcon{
+    display: none !important;
+  }
+  
+}

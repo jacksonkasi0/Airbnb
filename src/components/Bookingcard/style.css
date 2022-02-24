@@ -1,0 +1,11 @@
+.bookingCard{
+    position: sticky;
+    position: -webkit-sticky;
+    background: #ffff;
+    min-height: 300px;
+    top: 100px;
+    padding: 15px;
+    border: 1px solid #f1f1f1;
+    border-radius:10px;
+    box-shadow: #0000001a 0px 4px 12px;
+  }
